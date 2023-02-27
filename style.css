@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+a {
+    color: #525252;
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+/* header */
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: right;
+    gap: 2.5rem;
+    padding-top: 1.625rem;
+    font-size: 1.125rem;
+}
+
+/* first-screen */
+
+.description {
+    width: 60%;
+    padding-top: 7.8rem;
+}
+
+.first-screen__title {
+    font-size: 4rem;
+    line-height: 4.5rem;
+}
+
+.first-screen__text {
+    font-size: 4rem;
+    color: #757575;
+}
+
+/* featured */
+
+.featured {
+    padding-top: 11rem;
+}
+
+.featured__title {
+    font-size: 1rem;
+}
+
+.featured__title span {
+    font-size: 1rem;
+    color: #757575;
+}
+
+.featured__cards {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.card__img {
+    width: 100%;
+}
+
+.featured__card {
+    background-color: #f7f7f7;
+    border: 1px solid inherit;
+    border-radius: 15px;
+    font-size: 1rem;
+}
+
+.featured-card__description {
+    padding-left: 1.5rem;
+}
+
+.card__title {
+    padding-top: 1.5rem;
+}
+
+.card__text {
+    padding-top: 0.25rem;
+    padding-bottom: 1.5rem;
+    color: #757575;
+}
+
+.card__rule {
+    max-height: 44.75rem;
+}
+
+.card__situation {
+    max-height: 33.625rem;
+}
+
+.card__dry {
+    max-height: 33.625rem;
+}
+
+.card__vertical {
+    max-height: 33rem;
+    margin-top: -10.25rem;
+}
+
+.card__variable {
+    max-height: 33.625rem;
+}
+
+.card__scope {
+    max-height: 44.75rem;
+    margin-top: -10.25rem;
+}
+
+/* about me */
+
+.about {
+    margin-top: 17.5rem;
+}
+
+.about .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about__title {
+    font-size: 1.875rem;
+}
+
+.about__description {
+    font-size: 1.75rem;
+}
+
+.about__description:nth-child(2) {
+    padding: 2rem 0 2rem;
+}
+
+/* my photo */
+
+.photo {
+    margin-top: 16.5rem;
+}
+
+.photo__background {
+    width: 100%;
+    height: 100%;
+}
+
+/* experience */
+
+.experience {
+    margin-top: 16.5rem;
+}
+
+.experience .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.experience__title {
+    font-size: 1.875rem;
+}
+
+.experience__right {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 6rem;
+
+}
+
+.experience__subtitle {
+    font-size: 1rem;
+}
+
+.experience__text {
+    font-size: 0.9rem;
+    color: #525252;
+    margin: 0.25rem 0 1rem;
+}
+
+.experience__period {
+    font-size: 1.1rem;
+    color: #757575;
+}
+
+/* services- */
+
+.services-clients {
+    margin-top: 16rem;
+}
+
+.services-clients .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.services__title {
+    font-size: 1.9rem;
+}
+
+.services__menu li {
+    font-size: 1rem;
+    margin-top: 3rem;
+}
+
+.services__menu li:first-child {
+    margin-top: 4rem;
+}
+
+.clients__title {
+    font-size: 1.9rem;
+}
+
+.clients__menu li {
+    font-size: 1rem;
+    margin-top: 3rem;
+}
+
+.clients__menu li:first-child {
+    margin-top: 4rem;
+}
+
+/* email */
+
+.email-block {
+    margin-top: 16rem;
+}
+
+.block__email {
+    background-color: #FFEBD8;
+    width: 100%;
+    border: 1px solid inherit;
+    border-radius: 20px;
+    text-align: center;
+    max-height: 37rem;
+}
+
+.email__description {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.email__text {
+    font-size: 3.5rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.email__link {
+    font-size: 2.4rem;
+    color: #000;
+}
+
+/* footer */
+
+.footer {
+    margin-top: 16rem;
+    margin-bottom: 3rem;
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__nav a {
+    color: #000;
+}
+
+.footer__menu {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.2rem;
+}
+
+.footer__social {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.2rem;
+}
+
+hr {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    color: #f0f0f0;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom__list {
+    display: flex;
+    gap: 2rem;
+}
+
+.footer-bottom__list a {
+    color: #000;
+}
+
+.footer__powered {
+    display: flex;
+    gap: 2rem;
+    color: #525252;
+}
